@@ -1,0 +1,27 @@
+# Sprint 1 Mid-Sprint Checkpoint
+## Progress Snapshot
+
+- Planned points : 21 
+- Completed Points : 13
+- In Progress : 6
+- Not Started : 2
+- Status : On track
+
+## At-Risk Work
+- Story #6 Admin Dashboard Viewing goes blank more often & return blank
+- Story #1 Validation logic is more complex and challenging than expected
+- Story #4 blank state when filters return no results 
+
+## Decision Taken
+- Decouple dashboard refresh from email dispatch; make async if needed
+- Add "No rooms match your filters" empty state UI
+-  Reduce validation scope, defer edge cases to Sprint 
+
+
+## Blockers 
+- Resolved : 1
+- Outstanding: 1 (external API dependency)
+
+## Team health
+- Morale: Good
+- Collaboration: Good 

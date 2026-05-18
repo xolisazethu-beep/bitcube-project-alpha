@@ -1,0 +1,24 @@
+
+# Sprint 1 — Personal Reflection 
+## Key Learning 
+What was the most important lesson you learned about how work actually flows during a sprint? 
+
+-The most important lesson from Sprint 1 was that work does not flow linearly, it accelerates when stories are well-understood and grinds to a halt when they are not. US#01 and US#02 moved quickly because the team had clear acceptance criteria, a shared mental model of the feature, and no external dependencies. US#05 moved slowly and ultimately failed to complete not because the team lacked the technical skill, but because the acceptance criteria were incomplete and the back-end and front-end integration was never tested as a unit until it was too late to recover. The sprint taught me that clarity upstream — before a story is started — is more valuable than speed once development begins.
+
+
+## Assumptions That Failed 
+Which assumption (planning, estimation, communication, execution) broke down the most? 
+
+- The assumption that broke down most severely was in estimation and planning. The team estimated US-05 at 8 story points based on surface-level understanding of what "submit a booking" means. No one asked the critical question: what happens when two users try to book the same room at the same time? That single unexamined edge case was the source of the late-sprint bug. The assumption was that the story was straightforward because the user-facing interaction — filling a form and clicking submit — looks simple. In reality, the back-end concurrency and validation logic made it one of the most complex stories in the sprint. Estimation failed because the team estimated the interface, not the problem.
+
+
+## Behavioural Change 
+What is one concrete behaviour you would change in Sprint 2? 
+
+- In Sprint 2, I would change one specific behaviour: I would not mark a story as "in progress" until I had read and understood every acceptance criterion and could describe the edge cases out loud. During Sprint 1, I pulled US#5 into progress without questioning the incomplete criteria. I assumed someone else had thought through the validation logic. That passive assumption was costly. The concrete change is to treat the start of a story as a gate, not just a column move — and to ask one explicit question at that gate: "What's the hardest case this story has to handle and do we know how to handle it.
+
+
+## Professional Growth 
+What skill or habit do you need to strengthen to perform better in a real Scrum team?
+
+- The skill I most need to strengthen is active facilitation of technical clarity conversations. Several times during the sprint, I noticed ambiguity in a story's scope or acceptance criteria but did not raise it directly, assuming it would surface naturally or that someone more senior would flag it. It did not surface until the damage was done. In a real Scrum team, silence in the face of ambiguity is not professionalism ,it is a risk left unmanaged. I need to build the habit of naming uncertainty the moment I notice it, even if it slows the conversation down, because that friction up front is always cheaper than the friction of rework, missed goals, and stakeholder disappointment at a review.
